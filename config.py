@@ -1,0 +1,9 @@
+TOKEN_API = '6091901380:AAEIxyLT8BLgp9hxUk40FPEXYKR8nTCHBPY'
+FLAME_STICKER = 'CAACAgIAAxkBAAEIzt1kT8OZpR1F04BoRxUE0meXLUWwZwACPxEAAkEIqUinj4Fms19pdi8E'
+CAT_STICKER ='CAACAgIAAxkBAAEIzz5kT-ln6zfhzYhIvaX0bXauOtntgQACSxMAAuJF0Eu1fj47Sf--Ci8E'
+vika = "https://vernissage365.com/media/user/5956/thumbs/29TbebaqajPf_200x200_4giAA4J8.jpg"
+mafia = "https://cdn.smartytoys.ru/images/store/656_2.jpg"
+komissar = "https://cdn.smartytoys.ru/images/store/656_4.jpg"
+peacefull_1 = "https://cdn.smartytoys.ru/images/store/656_3.jpg"
+peacefull_2 = "https://cdn.smartytoys.ru/images/store/1075_1.jpg"
+doctor = "https://gamejulia.ru/images/i/vrach.jpg"
