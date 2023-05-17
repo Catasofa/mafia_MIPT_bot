@@ -68,7 +68,7 @@ async def start_the_game(message: types.Message):
     global first_mafia, second_mafia, third_mafia
     global chop, healer
     global flag
-    if len(players) >= 3 and flag == 1:
+    if len(players) >= 5 and flag == 1:
         flag += 1
         await bot.send_message(chat_id=message.chat.id,
                                text=game_text)
@@ -115,7 +115,7 @@ async def start_the_game(message: types.Message):
             else:
                 await bot.send_message(chat_id=player.id,
                                        text=f'{random_role[j]}\nЖди утра')
-    elif len(players) < 3:
+    elif len(players) < 5:
         await bot.send_message(chat_id=message.chat.id,
                                text='Недостаточно участников для начала игры')
     else:
@@ -222,7 +222,7 @@ async def join_game(callback_query: types.CallbackQuery):
             await callback_query.message.edit_text(text=f'''Хотите сыграть в физтех-Мафию?🎃🎃🎃?
 {len(players)} уже в игре🥳🥳🥳''',
                                                    reply_markup=keyboard)
-            if len(players) >= 3:
+            if len(players) >= 5:
                 await bot.send_message(chat_id=callback_query.message.chat.id,
                                        text=start_text)
         else:
